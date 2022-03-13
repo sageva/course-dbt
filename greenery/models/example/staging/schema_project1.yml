@@ -3,22 +3,27 @@ version: 2
 models:
   - name: g_addresses
     description: Address information. 
-models:
+
   - name: g_events
     description: Events information (main). 
-models:
+
   - name: g_order_items
     description: Items ordered information. 
-models:
+
   - name: g_orders
     description: Order information (main). 
-models:
+    columns:
+      - name: order_id
+        description: "Primary key"
+        tests:
+          - dbt_utils.at_least_one
+
   - name: g_products
     description: Product information. 
-models:
+
   - name: g_promos
     description: Promos information. 
-models:
+
   - name: g_users
     description: Users information. 
 

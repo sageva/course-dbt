@@ -1,0 +1,16 @@
+version: 2
+
+models:
+  - name: int_users
+    description: Joining together user and address table. 
+    columns:
+      - name: user_id
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null        
+           
+  - name: fact_open_orderd
+    description: Overview of all open orders, incl. user info. 
+
+

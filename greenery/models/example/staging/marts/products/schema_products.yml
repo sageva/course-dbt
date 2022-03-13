@@ -1,0 +1,13 @@
+version: 2
+
+models:
+  - name: int_orders
+    description: Joining together information about orders and items. 
+
+  - name: fact_products
+    description: Overview of how products are performing based on orders (row-level to allow different combinations).
+    columns:
+      - name: name
+        description: "Product name information."
+        tests:
+          - not_null 

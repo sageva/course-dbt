@@ -1,0 +1,16 @@
+version: 2
+
+models:
+  - name: int_promos
+    description: Joining together all info about promo use. 
+
+  - name: fact_promo_use
+    description: Aggregation of promo use at the promo_id level. 
+    columns:
+      - name: total_discount
+        description: "Aggregation value check"
+        tests:
+          - dbt_utils.accepted_range:
+              min_value: 1
+              inclusive: false
+
