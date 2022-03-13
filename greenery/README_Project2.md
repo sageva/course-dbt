@@ -16,7 +16,11 @@ Fact/dim models:
         2. MARKETING: Fact model that perform some aggregation on the int_promos table to clearly see how promotions are being used.
         3. CORE: Fact model that uses several of the int models to provide an overview of open orders; could be used for customer service inquiries. 
 
-! [DAG visual](course-dbt/greenery/Screen Shot 2022-03-12 at 10.31.44 PM.png)
-
+<img
+src="https://github.com/sageva/course-dbt/blob/main/greenery/Screen%20Shot%202022-03-12%20at%2010.31.44%20PM.png"
+raw=true
+alt="DAG Visual"
+style="margin-right: 10px;"
+/>
 
 **PART 2**
