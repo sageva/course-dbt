@@ -31,7 +31,7 @@ style="margin-right: 10px;"
 
 **Tests**
 
-1.I added four tests; one in each mart, and one on the original tables from week 1. 
+1. I added four tests; one in each mart, and one on the original tables from week 1. 
 
 *Test 1:*
 In the project 1 schema on the orders model, I added a test from the dbt_utils package, at_least_one, to the order_id column. The orders table is the center of the rest of our data, and the order_id column is its primary key; if there isn’t at least one order id coming through, there’s a big flaw with our data that will impact a lot of models. 
