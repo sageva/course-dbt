@@ -1,10 +1,10 @@
-##### PART 1
+**PART 1**
 
 1. 62%. SQL query in the core mart, as fact_conversion_overall.
 2. Table below. SQL query in the products mart under fact_conversion_product.sql
 
 product_id	                           name		               conversion_percentage
---------------------------------------|---------------------|---------------------
+|---|---|---|
 615695d3-8ffd-4850-bcf7-944cf6d3685b	|	Aloe Vera	|	0.66	|
 6f3a3072-a24d-4d11-9cef-25b0b5f8a4af	|	Alocasia Polly	|	0.67	|
 a88a23ef-679c-4743-b151-dc7722040d8c	|	Jade Plant	|	0.7	|
