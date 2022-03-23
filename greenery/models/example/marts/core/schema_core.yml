@@ -10,7 +10,7 @@ models:
           - unique
           - not_null        
            
-  - name: fact_open_orderd
+  - name: fact_open_orders
     description: Overview of all open orders, incl. user info. 
 
 
