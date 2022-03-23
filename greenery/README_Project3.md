@@ -36,3 +36,16 @@
 |	e706ab70-b396-4d30-a6b2-a1ccf3625b52	|	Fiddle Leaf Fig	|	0.89	|
 |	fb0e8be7-5ac4-4a76-a1fa-2cc4bf0b2d80	|	String of pearls	|	0.89	|![image](https://user-images.githubusercontent.com/62080155/159617304-1e028b59-7c83-49a9-b37a-a0e7da00ad34.png)
 
+#### PART 2
+
+Documented in documentation yml in the macros folder; created the 'event_types' macro.
+
+#### PART 3
+
+Documented in the project yml
+
+#### PART 4
+
+Installed dbt utils earlier, also installed dbtplyr because it looked interesting; used the dbt utils star macro to simplify my fact_products model, as it allows you to select * from a table and then specify a few columns to exclude instead of having to type out every column you are using. DAG below, though I don't think it shows the simplifying; largely, if I had known about it when I built this model I would have had to type out less! I do think it decreases readability though, in terms of folks seeing what columns you're putting into your model.
+
+
