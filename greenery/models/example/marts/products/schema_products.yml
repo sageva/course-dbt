@@ -11,3 +11,6 @@ models:
         description: "Product name information."
         tests:
           - not_null 
+
+  - name: fact_conversion_product
+    description: Conversion rates by product. Using some workarounds right now, should update.

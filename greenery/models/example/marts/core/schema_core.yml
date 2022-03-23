@@ -12,5 +12,7 @@ models:
            
   - name: fact_open_orders
     description: Overview of all open orders, incl. user info. 
-
+    
+  - name: fact_conversion_overall
+    description: Single row showing overall conversion rate.
 
