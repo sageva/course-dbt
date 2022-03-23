@@ -44,8 +44,13 @@ Documented in documentation yml in the macros folder; created the 'event_types' 
 
 Documented in the project yml
 
-#### PART 4
+#### PARTS 4 and 5
 
 Installed dbt utils earlier, also installed dbtplyr because it looked interesting; used the dbt utils star macro to simplify my fact_products model, as it allows you to select * from a table and then specify a few columns to exclude instead of having to type out every column you are using. DAG below, though I don't think it shows the simplifying; largely, if I had known about it when I built this model I would have had to type out less! I do think it decreases readability though, in terms of folks seeing what columns you're putting into your model.
 
-
+<img
+src="https://github.com/sageva/course-dbt/blob/main/greenery/Screen%20Shot%202022-03-23%20at%203.06.02%20PM.png"
+raw=true
+alt="DAG Visual"
+style="margin-right: 10px;"
+/>
