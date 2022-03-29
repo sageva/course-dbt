@@ -18,3 +18,9 @@ models:
 
   - name: macro_test
     description: Testing the event_types macro.
+
+  - name: int_product_funnel
+    description: Unioning together each step in the product funnel. Ideal for users to investigate which pages are tied to which parts of the funnel (e.g., you could select session id and max of funnel step to see how far each session made it through the funnel.) A funnel step of 3 indicates someone who checked out; a funnel step of 1 indicates someone who just viewed the page.
+
+  - name: fact_product_funnel
+    description: Providing a row-level overview of each session at the point at which they dropped out of the funnel, with additional information on users,etc. Note that some sessions have multiple rows because multiple actions were taken at their last funnel point, such as adding multiple items to a cart.
